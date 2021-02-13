@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "@jeswr/use-state",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "React hook with same API as use state implemented using useReducer",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "directories": {
@@ -22,17 +22,22 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jeswr/useState.git"
   },
-  "keywords": [],
+  "keywords": [
+    "useState",
+    "useReducer",
+    "React"
+  ],
   "author": "Jesse Wright <jesse.wright@anu.edu.au>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/jeswr/useState/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/jeswr/useState#readme",
   "devDependencies": {
     "@types/jest": "^26.0.19",
+    "@types/react": "^17.0.2",
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
     "eslint": "^7.17.0",
@@ -49,7 +54,7 @@
     "preset": "ts-jest",
     "collectCoverage": true,
     "coverageReporters": [
-      "json-summary", 
+      "json-summary",
       "text",
       "lcov"
     ],
@@ -81,5 +86,8 @@
         "prerelease": true
       }
     ]
+  },
+  "dependencies": {
+    "react": "^17.0.1"
   }
 }
