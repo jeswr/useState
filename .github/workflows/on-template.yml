@@ -26,6 +26,6 @@ jobs:
       - name: push
         uses: github-actions-x/commit@v2.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
           commit-message: 'chore: replaces template variables'
           rebase: 'true'
