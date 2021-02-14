@@ -20,6 +20,8 @@
       "import/no-unresolved": "off",
       "no-restricted-syntax": "off",
       "import/extensions": "off",
-      "no-undef": "off"
+      "no-undef": "off",
+      "no-unused-vars": "off",
+      "no-redeclare": "off"
   }
 }
