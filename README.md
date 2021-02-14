@@ -5,7 +5,6 @@ React hook with same API as use state (plus some extensions) implemented using u
 [![GitHub license](https://img.shields.io/github/license/jeswr/useState.svg)](https://github.com/jeswr/useState/blob/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/@jeswr/use-state.svg)](https://www.npmjs.com/package/@jeswr/use-state)
 [![build](https://img.shields.io/github/checks-status/jeswr/useState/main.svg)](https://github.com/jeswr/useState/tree/main/)
-[![Coverage Status](https://coveralls.io/repos/github/jeswr/useState/badge.svg?branch=main)](https://coveralls.io/github/jeswr/useState?branch=main)
 [![Dependabot](https://badgen.net/badge/Dependabot/enabled/green?icon=dependabot)](https://dependabot.com/)
 ## Why
 
