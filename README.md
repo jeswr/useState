@@ -43,4 +43,4 @@ function MyReactComponent() {
 ## License
 ©2021–present
 [Jesse Wright](https://github.com/jeswr).
-[MIT License](https://github.com/jeswr/useState/blob/master/LICENSE.md).
+[MIT License](https://github.com/jeswr/useState/blob/master/LICENSE).
