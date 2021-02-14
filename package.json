@@ -96,5 +96,8 @@
   },
   "dependencies": {
     "react": "^17.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
