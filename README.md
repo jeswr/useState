@@ -1,6 +1,6 @@
 # useState
 
-React hook with same API as use state (plus some extensions) implemented using useReducer
+React hook with same API as useState (plus some extensions) implemented using useReducer
 
 [![GitHub license](https://img.shields.io/github/license/jeswr/useState.svg)](https://github.com/jeswr/useState/blob/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/@jeswr/use-state.svg)](https://www.npmjs.com/package/@jeswr/use-state)

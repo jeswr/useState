@@ -10,10 +10,10 @@ export function useState<K, T>(init: T, modification: (param: K) => T): [T, (act
 export function useState<K, T>(init: T, modification?: (param: K) => T): [T, (action: K) => void] {
   if (modification) {
     return useReducer<(state: T, action: K) => T>(
-      (state, action) => modification(action),
+      (_, action) => modification(action),
     init);
   }
   return useReducer<(state: T, action: K) => T>(
-    (state, action) => action as unknown as T,
+    (_, action) => action as unknown as T,
   init);
 }
