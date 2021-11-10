@@ -46,7 +46,7 @@
     "@typescript-eslint/parser": "^5.0.0",
     "coveralls": "^3.1.0",
     "eslint": "^8.0.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.22.1",
     "jest": "^27.0.1",
     "jest-coverage-badges": "^1.1.2",
