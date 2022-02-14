@@ -9,11 +9,15 @@ export function useState<T>(init: T): [T, (action: T) => void];
 export function useState<K, T>(init: T, modification: (param: K) => T): [T, (action: K) => void];
 export function useState<K, T>(init: T, modification?: (param: K) => T): [T, (action: K) => void] {
   if (modification) {
-    return useReducer<(state: T, action: K) => T>(
+    return useReducer<(
+      state: T, action: K) => T>(
       (_, action) => modification(action),
-    init);
+      init,
+      );
   }
-  return useReducer<(state: T, action: K) => T>(
+  return useReducer<(
+    state: T, action: K) => T>(
     (_, action) => action as unknown as T,
-  init);
+    init,
+    );
 }
